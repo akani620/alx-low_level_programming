@@ -4,7 +4,7 @@
  *
  *Descrription : print hexadecimal
  *
- *Return - always 0 (success)
+ *Return: 0
  *
  */
 int main(void)      /*main- start of program */
@@ -15,7 +15,7 @@ while (i <= '9')
 	{putchar ('i');
 		i++;
 	}
-	while (a <= 'f')
+while (a <= 'f')
 	{ putchar ('a');
 		a++;
 	}
