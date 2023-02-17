@@ -8,7 +8,7 @@
 int main(void)
 
 {   int i = '0';
-	int x = 'a';
+    int x = 'a';
 	while (i <= '9')
 	{putchar ('i');
 		i++;
@@ -19,6 +19,6 @@ int main(void)
 		x++;
 	}
 
-putcahr ('\n');
-return (0);
+    putchar ('\n');
+    return (0);
 }
