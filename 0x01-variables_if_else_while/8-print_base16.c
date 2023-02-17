@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  *main - entry point
  *
  *Descrription : print hexadecimal
@@ -11,12 +11,12 @@ int main(void)      /*main- start of program */
 {
 char i = '0';
 char a = 'a';
-	while (i <= '9')
+while (i <= '9')
 	{putchar ('i');
 		i++;
 	}
 	while (a <= 'f')
-	{ putchar ('x');
+	{ putchar ('a');
 		a++;
 	}
 putchar ('\n');
