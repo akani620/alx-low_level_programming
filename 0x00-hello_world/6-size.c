@@ -3,6 +3,8 @@
 /*
  * main - Entry point
  *
+ * function_main - contains the code block
+ *
  * Return: Always 0 (Success)
  */
 
