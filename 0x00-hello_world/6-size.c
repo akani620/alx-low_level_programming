@@ -1,11 +1,9 @@
 #include <stdio.h>
 
-/**
- * Function main: program block calculating size of types
+/*
+ * main - Entry point
  *
- * Description: main- runtime start execution
- *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
