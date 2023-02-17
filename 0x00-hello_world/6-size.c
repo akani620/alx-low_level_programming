@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-/*
- * function main: program block
+/**
+ * Function main: program block calculating size of types
  *
  * Description: main- runtime start execution
  *
- * return: always 0 (success)
+ * Return: Always 0 (success)
  */
 
 int main(void)
