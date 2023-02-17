@@ -1,23 +1,23 @@
 #include <stdio.h>
 /*
- *main - print hexadecimal
+ *main - entry point
+ *
+ *Descrription : print hexadecimal
  *
  *Return - always 0 (success)
- *
- *function main - entry point
  *
  */
 int main(void)      /*main- start of program */
 {
 char i = '0';
-char x = 'a';
+char a = 'a';
 	while (i <= '9')
 	{putchar ('i');
 		i++;
 	}
-	while (x <= 'f')
+	while (a <= 'f')
 	{ putchar ('x');
-		x++;
+		a++;
 	}
 putchar ('\n');
 return (0);
