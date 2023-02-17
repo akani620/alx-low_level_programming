@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 /*
+ * function main: program block
+ *
  * Description: main- runtime start execution
  *
  * return: always 0 (success)
