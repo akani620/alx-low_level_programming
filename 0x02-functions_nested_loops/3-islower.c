@@ -1,15 +1,22 @@
-#include <ctype.h>
+#include "holberton.h"
 
 /**
- * _islower - Return 1 if letter is lowercase, 0 if not.
- * @c: char type letter
- * Return: 1 if lowercase, 0 if not lowercase
+ * _islower - Entry point
+ * Description: checks is a character is lowercase
+ * @c: the integer value it receives
+ * Return: 1 if true. 0 if false.
  */
-
-int islower(int c)
+int _islower(int c)
 {
-	if (c >= 'a' && c <= 'z')
-		return (1);
-	else
-		return (0);
+int i = 'a';
+
+for (i = 'a'; i <= 'z'; i++)
+{
+/* refer int c*/
+if (c == i)
+{
+return (1);
+}
+}
+return (0);
 }
