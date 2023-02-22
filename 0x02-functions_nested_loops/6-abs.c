@@ -8,13 +8,14 @@
 
 int _abs(int n)
 {
+	int k;
 	if (n >= 0)
 	{
-		n = 1 * n;
+		k = 1 * n;
 	}
 	else
 	{
-		n = -1 * n;
+		k = -1 * n;
 	}
 	return (0);
 }
