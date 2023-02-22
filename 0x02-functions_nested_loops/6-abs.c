@@ -8,8 +8,6 @@
 
 int _abs(int n)
 {
-	_abs;
-
 	if (n >= 0)
 	{
 		_abs = 1*n;
