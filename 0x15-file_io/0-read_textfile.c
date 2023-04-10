@@ -4,16 +4,16 @@
 /**
  *read_textfile - reads a textfile and prints it to the posix std out
  *@filename : a pointer to the name of the file
- *@letters : the number of letters the function should read and print.
+ *@letters : the number of letters the
+ *           function should read and print.
  *
  *Return : if the function fails or the file name is zero - 0
  *        0/w - the actual number of bytes the function can read and print.
- *
  */
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	ssize_t r,	o,	w;
+	ssize_t r, o, w;
 	char *buffer;
 
 	if (filename == NULL)
